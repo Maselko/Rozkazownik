@@ -937,7 +937,7 @@ class Main(tk.Frame):
 
         # number entrybox
         orpno = tk.StringVar()
-        Order_no = tk.Entry(l1, textvariable=nrpno, width=5)
+        Order_no = tk.Entry(l1, textvariable=orpno, width=5)
         Order_no.pack(side='left', padx=5, pady=5)
         l1.pack()
 
@@ -991,7 +991,7 @@ class Main(tk.Frame):
         od12l02 = ttk.Label(od12, text=lc.text[lang]['do'] + '\nkm', anchor="c")
         od12l02.grid(row=0, column=2)
 
-        od12l03 = ttk.Label(od12, text='1)\n2)', anchor="c")
+        od12l03 = ttk.Label(od12, text='1) km/h\n2) j.o', anchor="c")
         od12l03.grid(row=0, column=3)
 
         od12l04 = ttk.Label(od12, text=lc.text[lang]['powod'], anchor="c")
@@ -1007,10 +1007,10 @@ class Main(tk.Frame):
         od12l12 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
         od12l12.grid(row=1, column=2, sticky="nw", pady=1)
 
-        od12l13 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
+        od12l13 = tk.Text(od12, font=("Helvetica", 9), width=6, height=2)
         od12l13.grid(row=1, column=3, sticky="nw", pady=1)
 
-        od12l14 = tk.Text(od12, font=("Helvetica", 9), width=16, height=2)
+        od12l14 = tk.Text(od12, font=("Helvetica", 9), width=15, height=2)
         od12l14.grid(row=1, column=4, sticky="nw", pady=1)
 
         # Line 2
@@ -1023,10 +1023,10 @@ class Main(tk.Frame):
         od12l22 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
         od12l22.grid(row=2, column=2, sticky="nw", pady=1)
 
-        od12l23 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
+        od12l23 = tk.Text(od12, font=("Helvetica", 9), width=6, height=2)
         od12l23.grid(row=2, column=3, sticky="nw", pady=1)
 
-        od12l24 = tk.Text(od12, font=("Helvetica", 9), width=16, height=2)
+        od12l24 = tk.Text(od12, font=("Helvetica", 9), width=15, height=2)
         od12l24.grid(row=2, column=4, sticky="nw", pady=1)
 
         # Line 3
@@ -1039,10 +1039,10 @@ class Main(tk.Frame):
         od12l32 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
         od12l32.grid(row=3, column=2, sticky="nw", pady=1)
 
-        od12l33 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
+        od12l33 = tk.Text(od12, font=("Helvetica", 9), width=6, height=2)
         od12l33.grid(row=3, column=3, sticky="nw", pady=1)
 
-        od12l34 = tk.Text(od12, font=("Helvetica", 9), width=16, height=2)
+        od12l34 = tk.Text(od12, font=("Helvetica", 9), width=15, height=2)
         od12l34.grid(row=3, column=4, sticky="nw", pady=1)
 
         # Line 4
@@ -1055,10 +1055,10 @@ class Main(tk.Frame):
         od12l42 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
         od12l42.grid(row=4, column=2, sticky="nw", pady=1)
 
-        od12l43 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
+        od12l43 = tk.Text(od12, font=("Helvetica", 9), width=6, height=2)
         od12l43.grid(row=4, column=3, sticky="nw", pady=1)
 
-        od12l44 = tk.Text(od12, font=("Helvetica", 9), width=16, height=2)
+        od12l44 = tk.Text(od12, font=("Helvetica", 9), width=15, height=2)
         od12l44.grid(row=4, column=4, sticky="nw", pady=1)
 
         # Line 5
@@ -1071,13 +1071,13 @@ class Main(tk.Frame):
         od12l52 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
         od12l52.grid(row=5, column=2, sticky="nw", pady=1)
 
-        od12l53 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
+        od12l53 = tk.Text(od12, font=("Helvetica", 9), width=6, height=2)
         od12l53.grid(row=5, column=3, sticky="nw", pady=1)
 
-        od12l54 = tk.Text(od12, font=("Helvetica", 9), width=16, height=2)
+        od12l54 = tk.Text(od12, font=("Helvetica", 9), width=15, height=2)
         od12l54.grid(row=5, column=4, sticky="nw", pady=1)
 
-        # Line 3
+        # Line 6
         od12l60 = tk.Text(od12, font=("Helvetica", 9), width=22, height=2)
         od12l60.grid(row=6, column=0, sticky="nw", pady=1)
 
@@ -1087,10 +1087,10 @@ class Main(tk.Frame):
         od12l62 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
         od12l62.grid(row=6, column=2, sticky="nw", pady=1)
 
-        od12l63 = tk.Text(od12, font=("Helvetica", 9), width=5, height=2)
+        od12l63 = tk.Text(od12, font=("Helvetica", 9), width=6, height=2)
         od12l63.grid(row=6, column=3, sticky="nw", pady=1)
 
-        od12l64 = tk.Text(od12, font=("Helvetica", 9), width=16, height=2)
+        od12l64 = tk.Text(od12, font=("Helvetica", 9), width=15, height=2)
         od12l64.grid(row=6, column=4, sticky="nw", pady=1)
 
         sep12 = ttk.Separator(Oroot, orient='horizontal')
@@ -1508,15 +1508,68 @@ class Main(tk.Frame):
                 output+="┣━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
             elif rptype == 2:
+                rawdata = [[od12l10.get("1.0","end-1c"), od12l11.get("1.0","end-1c"), od12l12.get("1.0","end-1c"), od12l13.get("1.0","end-1c"), od12l14.get("1.0","end-1c")],
+                           [od12l20.get("1.0","end-1c"), od12l21.get("1.0","end-1c"), od12l22.get("1.0","end-1c"), od12l23.get("1.0","end-1c"), od12l24.get("1.0","end-1c")],
+                           [od12l30.get("1.0","end-1c"), od12l31.get("1.0","end-1c"), od12l32.get("1.0","end-1c"), od12l33.get("1.0","end-1c"), od12l34.get("1.0","end-1c")],
+                           [od12l40.get("1.0","end-1c"), od12l41.get("1.0","end-1c"), od12l42.get("1.0","end-1c"), od12l43.get("1.0","end-1c"), od12l44.get("1.0","end-1c")],
+                           [od12l50.get("1.0","end-1c"), od12l51.get("1.0","end-1c"), od12l52.get("1.0","end-1c"), od12l53.get("1.0","end-1c"), od12l54.get("1.0","end-1c")],
+                           [od12l60.get("1.0","end-1c"), od12l61.get("1.0","end-1c"), od12l62.get("1.0","end-1c"), od12l63.get("1.0","end-1c"), od12l64.get("1.0","end-1c")]]
+                def otrim(string):
+                    wordlist = string.split(' ')
+                    counter = 0
+                    outstrlist = []
+                    outstr = ''
+                    for word in wordlist:
+                        if len(word) + counter > 36:
+                            outstr += "                                                                                                                                     "
+                            outstrlist.append(outstr)
+                            outstr = word + ' '
+                            counter = len(word) + 1
+                        else:
+                            outstr += word + ' '
+                            counter += len(word) + 1
+                    outstrlist.append(outstr)
+                    return outstrlist
+                data = []
+
+                for i in rawdata:
+                    if i[0] != "":
+                        temp = []
+                        for j in i:
+                            temp.append(otrim(j))
+                        data.append(temp)
+
                 if outlang.get() == 'EN':  # Rozkaz O Ang
                     output+="┃     <b>Written order „O” Nr <i>" + orpno.get()
                     output+="</i></b>                                                                                                                                     "
                     output+="┃ For " + chlang(lang, olang, 'pocman', opmtype.get())
                     output+=" <i>" + otrno.get() + "</i>  date <i>" + t.strftime('%d.%m.%Y')
                     output+="</i>                                                                                                                                     "
+                    output+="┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                    if len(data) > 0:
+                        output+="┃  <b>1</b>     1) Reduce speed and maintain caution (km/h)                                                                                    "
+                        output+="┃          2) Drive cautiously(shortned j.o)                                                                                    "
+                        output+="┣━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                        linenum = 1
+                        for item in data:
+                            if linenum > 1:
+                                output+="┣━━━╋━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃    <b>."+ str(linenum) +"</b> ┃ at post                 ┃ <i>"+item[0][0]+"</i>                                                                                                                                     "
+                            linenum += 1
+                            if len(item[0]) == 2:
+                                output+="┃        ┃ on route              ┃ <i>"+item[0][1]+"</i>                                                                                                                                     "
+                            else:
+                                output+="┃        ┃ on route              ┃                                                                                                                                      "
+                            output+="┃        ┣━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃        ┃ from km to km ┃ <i>"+item[1][0]+'-'+item[2][0]+"</i>                                                                                                                                     "
+                            output+="┃        ┣━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃        ┃ 1), 2)                      ┃ <i>"+item[3][0]+"</i>                                                                                                                                     "
+                            output+="┃        ┣━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃        ┃ reason                 ┃ <i>"+item[4][0]+"</i>                                                                                                                                     "
+                            if len(item[1]) == 2:
+                                output+="┃        ┃                                ┃ <i>"+item[4][1]+"</i>                                                                                                                                     "
+                        output+="┣━━━┻━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
                     if od21n.get() == True:
-                        if te == 1:
-                            output+="┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
                         output+="┃ <b>2</b>   Other:                                                                                    "
                         output+="                                                                                                                                      "
                         output+=trimmer(nd61txt.get("1.0","end-1c"))
@@ -1526,16 +1579,40 @@ class Main(tk.Frame):
                     output+="┃ dla " + chlang(lang, olang, 'pocman', opmtype.get())
                     output+=" <i>" + otrno.get() + "</i>  dnia <i>" + t.strftime('%d.%m.%Y')
                     output+="</i>                                                                                                                                     "
+                    output+="┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                    if len(data) > 0:
+                        output+="┃  <b>1</b>     1) Zminejszyć prędkość jazdy i zachować ostrożność (km/h)                                                                                    "
+                        output+="┃          2) Jechać ostrożnie(skrót j.o)                                                                                    "
+                        output+="┣━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                        linenum = 1
+                        for item in data:
+                            if linenum > 1:
+                                output+="┣━━━╋━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃    <b>."+ str(linenum) +"</b> ┃ na posterunku  ┃ <i>"+item[0][0]+"</i>                                                                                                                                     "
+                            linenum += 1
+                            if len(item[0]) == 2:
+                                output+="┃        ┃ szlaku                   ┃ <i>"+item[0][1]+"</i>                                                                                                                                     "
+                            else:
+                                output+="┃        ┃ szlaku                   ┃                                                                                                                                      "
+                            output+="┃        ┣━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃        ┃ Od km do km    ┃ <i>"+item[1][0]+' -  '+item[2][0]+"</i>                                                                                                                                     "
+                            output+="┃        ┣━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃        ┃ 1), 2)                      ┃ <i>"+item[3][0]+"</i>                                                                                                                                     "
+                            output+="┃        ┣━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ "
+                            output+="┃        ┃ Z powodu           ┃ <i>"+item[4][0]+"</i>                                                                                                                                     "
+                            if len(item[1]) == 2:
+                                output+="┃        ┃                                ┃ <i>"+item[4][1]+"</i>                                                                                                                                     "
+                        output+="┣━━━┻━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
                     if od21n.get() == True:
                         if te == 1:
-                            output+="┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+                            output+="┣━━━┻━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
                         output+="┃ <b>2</b>   Inne:                                                                                    "
                         output+="                                                                                                                                      "
                         output+=trimmer(nd61txt.get("1.0","end-1c"))
                         output+="┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
             # Wszystkie rozkazy:
-            output+="┃  <i>" + station.get() + "</i> ┃ <i>" + post.get()
+            output+="┃  <i>" + station.get() + "</i> ┃ <i>" + post.get() + "</i>                                                                                          "
             if outlang.get() == 'EN':  # Ang
                 if master.drpolec.get() == 'z polecenia DR / On order of dispatcher':
                     output+="┣━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
